@@ -5,6 +5,7 @@
 body {
     max-width: 1200px;
     margin: 2px auto;
+    font-family: "Lora", cursive;
 }
 
 header {
@@ -36,6 +37,7 @@ ul li {
     height: 300px;
     display: block;
     margin: auto;
+    border-radius: 5px;
 }
 
 .content-header {
@@ -107,4 +109,5 @@ ul li {
 .cta-info a:hover {
     background: teal;
     color: rgb(255, 255, 255);
+    transition: 500ms;
 }
