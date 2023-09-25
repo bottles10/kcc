@@ -1,19 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="kwahu chamber of commence">
-    <meta property="og:title" content="Kwahu Chamber of Commence "> 
+    <meta property="og:title" content="Kwahu Chamber of Commence ">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://github.com/bottles10/wdd230/blob/main/images/webpage.png?raw=true">
     <meta property="og:url" content="https://bottles10.github.io/kcc">
+
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Megrim&family=Srisakdi:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/typography.css">
+    <link rel="stylesheet" href="styles/weather-card.css">
+    <link rel="stylesheet" href="styles/spotlight.css">
+    <link rel="stylesheet" href="styles/larger.css">
 
     <title>Kwahu Chamber of Commence</title>
 </head>
+
 <body>
-    <h1>Kwahu Chamber of Commence</h1>
-    
+    <header>
+        <div class="logo">
+            <h1>KCC</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Events</li>
+                <li>Membership</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="https://i0.wp.com/mrpocu.com/wp-content/uploads/2022/04/35795CFC-E1F3-4EB0-8A24-204701664F8B.jpeg?fit=1024%2C758&ssl=1"
+                alt="kwahu plateau">
+        </section>
+
+        <section class="site-purpose">
+            <h2 class="content-header">Site Purpose</h2>
+            <p class="content-info">The Kwahu Chamber of Commerce serves as a dynamic force driving economic growth,
+                fostering leadership,
+                and championing community vitality. We advance businesses through tailored member services, spearhead
+                initiatives in economic and community development, and advocate for public policies that harmonize
+                prosperity with an enriched quality of life. Guided by Kwahu's abundant tourism gems, we aim to elevate
+                our district as a thriving destination for both commerce and exploration.
+            </p>
+        </section>
+
+        <section class="events">
+            <h2 class="content-header">Coming Events</h2>
+            <p style="text-align: center; font-weight: bolder;">Have an awesome and sensory experiences on events in and
+                around Kwahu</p>
+
+            <div class="event-page">
+                <div class="event"><img src="images/multi-artsy.jpg" alt="multi-artsy"></div>
+                <div class="event"><img src="images/multi-artsy.jpg" alt="multi-artsy"></div>
+                <div class="event"><img src="images/multi-artsy.jpg" alt="multi-artsy"></div>
+
+
+            </div>
+        </section>
+
+        <div class="weather-card">
+            <h2 class="city">Kwahu</h2>
+            <p class="description">Partly Cloudy</p>
+            <div class="temperature">
+                <span class="current">25°C</span>
+                <span class="min-max">Min: 20°C / Max: 28°C</span>
+            </div>
+            <p class="icon">🌞</p>
+        </div>
+
+        <section class="cta">
+            <div>
+                <img src="https://global.discourse-cdn.com/business4/uploads/trondao/optimized/2X/c/ca6ea337ec6a0e8318b6c15ea50f9db0ca9a0320_2_500x500.jpeg"
+                    alt="Kwahu">
+            </div>
+            <div class="cta-info">
+                <h2>Join the Chamber of Commerce</h2>
+                <p>Discover the benefits of becoming a member.</p>
+                <a href="#">Join Now</a>
+            </div>
+        </section>
+
+        <section class="spotlights">
+            <h2>Company Spotlights</h2>
+            <div class="spotlight">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/1d/0c/f0/f5/caption.jpg"
+                    alt="rock city hotel">
+                <h3>Rock City</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, maxime. Eius iusto quae incidunt
+                    cumque nobis dolores voluptates placeat totam? Molestias quas nobis pariatur quidem inventore ea et.
+                    Rerum, unde.</p>
+            </div>
+            <div class="spotlight">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/1d/0c/f0/f5/caption.jpg"
+                    alt="rock city hotel">
+                <h3>Company 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, voluptatum ad. Possimus quas eum
+                    laboriosam cupiditate. Atque quasi ullam amet suscipit vero. Quis officia fugiat recusandae eius
+                    mollitia tempore quod.</p>
+            </div>
+        </section>
+        
+        <footer>
+            <p class="copyright">&copy; <span id="year"></span> Henry A. Aovare. Ghana</p>
+            <p class="last-modified">Last Modification: <span id="lastModified"></span></p>
+        </footer>
+
+    </main>
+<script src="scripts/getDates.js"></script>
 </body>
+
 </html>

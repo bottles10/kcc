@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    margin: 2px auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Megrim', cursive;
+
+}
+
+header nav ul {
+    display: flex;
+    color: #0A81D1;
+
+}
+
+
+ul li {
+    list-style: none;
+    padding: 1rem;
+    font-weight: 600;
+
+}
+
+.hero img {
+    width: 900px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+
+.content-header {
+    text-align: center;
+    margin-top: 2rem;
+    color: #0A81D1;
+    font-size: xx-large;
+}
+
+.content-info {
+    line-height: 1.625;
+}
+
+
+/* ----------events section ----------- */
+
+
+.event-page {
+    display: block;
+
+}
+
+
+
+
+/* --------- cta section -------- */
+
+.cta {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 2rem;
+    /* padding: 2rem; */
+}
+
+.cta img {
+    max-width: 100%;
+}
+
+.cta-info {
+    text-align: center;
+    margin: auto;
+}
+
+.cta-info h2 {
+    color: teal;
+    font-size: xx-large;
+}
+
+.cta-info p {
+    font-size: large;
+}
+
+.cta-info a {
+    display: block;
+    margin-top: 5rem;
+    font-size: x-large;
+}
+
+.cta a {
+    text-decoration: none;
+    color: #E86A92;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 1rem 3rem;
+    font-weight: 700;
+
+}
+
+.cta-info a:hover {
+    background: teal;
+    color: rgb(255, 255, 255);
+}

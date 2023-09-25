@@ -1,0 +1,41 @@
+@media screen and (min-width: 640px) {
+    .event-page {
+        display: flex;
+        border-radius: 5px;
+        box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+        
+    }
+
+    .event {
+        padding: 5px;
+        
+    }
+    
+    .event img {
+        max-width: 100%;
+        margin-right: 1rem;
+        border: 1px solid gray;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        
+        
+    }
+
+    /* ------ cta -------  */
+    .cta {
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        
+        
+    
+
+    }
+
+      
+    /* ------- spotlights -------- */
+
+    .spotlights h2 {
+        margin-right: 3rem;
+    }
+}
